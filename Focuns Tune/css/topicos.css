@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navigation-arrows {
+  margin-bottom: 20px;
+ 
+}
+.subject-title {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.topics-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.topic-card {
+  background-color: rgb(255, 255, 255) ;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--card-border);
+  cursor: pointer;
+  height: 120px;
+  width: 80%;
+
+}
+.topic-icon img {
+  width: 70px;
+}
+.topic-name {
+  flex-grow: 1;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+.relevance {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.relevance-label {
+  font-size: 14px;
+  color: #8899a6;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.relevance-bar {
+  display: flex;
+  gap: 4px;
+  margin: 5px 0;
+}
+.bar-segment {
+  width: 30px;
+  height: 6px;
+  background-color: var(--relevance-bar-bg);
+  border-radius: 3px;
+}
+.bar-segment.filled {
+  background-color: var(--relevance-bar-fill);
+}
+.relevance-value {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(11, 55, 73);
+  margin-right: 10px
+
+}
+
+.links{
+  color: #00141b;
+}
+.links:hover{
+  color: #007BFF;
+}
+@media (max-width: 768px) {
+  .footer2 {
+    margin-left: 0;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+}

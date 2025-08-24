@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/globals.css" />
+    <link rel="stylesheet" href="../css/form.css" />
+    <title>Focusn Tune – Entrar</title>
+  </head>
+<body>
+    <main class="content">
+      <div>
+        <figure>
+          <h2 class="" style="margin-left: 20px; color: var(--header-text);">Focuns <br>Tune</h2>
+          <img src="../img/computer-ilustration.png" alt="">
+
+        </figure>
+      </div>
+      <section>
+        <h2 style=" text-align: center; color: rgba(2, 20, 27, 1); ;">Login</h2>
+        <form id="loginForm" onsubmit="handleLoginSubmit()" style="background-color: rgb(255, 255, 255); color: black;">
+          <h3 class="text-2xl font-regular text-center">Bem vindo(a)</h3>
+
+            <div class="group">
+            <label for="Nome">Nome:</label>
+            <input id="Nome" type="text" placeholder="Nome Completo" style="background-color: rgb(232, 240, 254);" />
+          </div>
+
+          <div class="group">
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="@gmail.com" style="background-color: rgb(232, 240, 254);" />
+          </div>
+
+          <div class="group">
+            <label for="password">Senha:</label>
+            <input id="password" type="password" placeholder="********" style="background-color: rgb(232, 240, 254);" />
+          </div>
+
+          <div class="inline-group2">
+            <div>
+              <input type="checkbox" />
+            </div>
+             <label>Lembrar senha</label>
+
+            <a href="../#" style="color: blue;">Esqueceu a senha?</a>
+          </div>
+
+          <button
+            class="button"
+            style="border: #000 solid 1px; background-color: #fff; color: #000; height: 40px;  margin-top: 5px ">
+           <a href="../páginas/pagina-inicial.html" style="color: #000;  text-decoration: none;"> Login</a>
+          </button>
+        </form>
+      </section>
+    </main>
+    <script src="../js/index.js" defer></script>
+  </body>
+</html>
